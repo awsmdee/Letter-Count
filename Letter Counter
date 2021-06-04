@@ -1,0 +1,11 @@
+def letter_count(text, letter):
+    total = 0
+    for i in text:
+        if i == letter:
+            total += i
+    return total
+
+text = input()
+letter = input()
+
+print(letter_count(text, letter))
